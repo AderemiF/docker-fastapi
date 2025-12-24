@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return { "msg": "Merry Christmas!", "v": "0.1" }
+    return { "msg": "Merry Christmas and a Prosperous New Year in Advance!", "v": "0.1" }
 
 
 @app.get("/items/{id}")
